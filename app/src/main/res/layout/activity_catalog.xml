@@ -3,12 +3,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 <!--Title-->
-
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="目录"
+    android:layout_above="@id/catalog_list"
+    android:gravity="center"
+    android:fontFamily="@font/costom_font"
+    android:textSize="40dp"
+    android:layout_margin="10dp"/>
 <!--RecyclerView-->
 <ListView
     android:id="@+id/catalog_list"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="300dp"
     android:layout_centerVertical="true"/>
 
 </RelativeLayout>

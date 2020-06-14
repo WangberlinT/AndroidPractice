@@ -1,8 +1,8 @@
 package com.tiki.practiceset.model;
 
 public class CatalogEntry {
-  private String name;
-  private int imageId;
+  private String name;//存储文本内容
+  private int imageId;//存储图片
   private Class<?> nextActivity;
 
   public CatalogEntry(String name, int imageId,Class<?> nextActivity)

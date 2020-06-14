@@ -5,7 +5,7 @@
         Activity组件\n
         1. Activity 切换, Intent消息传递, 各种控件\n
         2. LinearLayout, RelativeLayout 布局\n
-        3. 高级控件: ListView, RecyclerView...\n
+        3. 高级控件: ListView, RecyclerView…\n
         Broadcast组件\n
 
         网络编程与数据存储\n
@@ -13,4 +13,6 @@
     <string name="author">-TIKI-</string>
     <string name="catalog">目录</string>
     <string name="wechat">微信</string>
+
+
 </resources>

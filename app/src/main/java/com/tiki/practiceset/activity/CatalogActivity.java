@@ -1,7 +1,5 @@
 package com.tiki.practiceset.activity;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -25,9 +23,9 @@ public class CatalogActivity extends BaseActivity {
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
-    setContentView(R.layout.activity_catalog);
+    setContentView(R.layout.activity_catalog);//做了什么？
     initEntries();
-    EntryAdapter adapter = new EntryAdapter(this,R.layout.catalog_entry,entries);
+    EntryAdapter adapter = new EntryAdapter(this,R.layout.content_list,entries);
     ListView listView = (ListView)findViewById(R.id.catalog_list);
     listView.setAdapter(adapter);
     listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -43,5 +41,7 @@ public class CatalogActivity extends BaseActivity {
   private void initEntries()
   {
     entries.add(new CatalogEntry("模仿Wechat布局练习",R.mipmap.home_normal,WechatActivity.class));
+    entries.add(new CatalogEntry("Fragment练习",R.mipmap.ic_launcher_round,FragmentPractice.class));
+    entries.add(new CatalogEntry("login 存储和广播练习",R.mipmap.ic_launcher_round, LoginPractice.class));
   }
 }

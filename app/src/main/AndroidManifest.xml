@@ -9,6 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".activity.WebPractice"></activity>
+        <activity android:name=".activity.LoginPractice" />
+        <activity android:name=".activity.FragmentPractice" />
         <activity android:name=".activity.WechatActivity" />
         <activity android:name=".activity.CatalogActivity" />
         <activity android:name=".activity.MainActivity">

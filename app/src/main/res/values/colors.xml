@@ -6,5 +6,7 @@
     <color name="black">#000000</color>
     <color name="muYunHui">#4f383e</color>
     <color name="bar_color">#F5F5F5</color>
+    <color name="main_bottom_tab_textcolor_normal">#999999</color>
+    <color name="main_bottom_tab_textcolor_selected">#46c01b</color>
 
 </resources>
