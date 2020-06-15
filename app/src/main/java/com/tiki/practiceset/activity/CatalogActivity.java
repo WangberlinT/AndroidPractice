@@ -43,5 +43,6 @@ public class CatalogActivity extends BaseActivity {
     entries.add(new CatalogEntry("模仿Wechat布局练习",R.mipmap.home_normal,WechatActivity.class));
     entries.add(new CatalogEntry("Fragment练习",R.mipmap.ic_launcher_round,FragmentPractice.class));
     entries.add(new CatalogEntry("login 存储和广播练习",R.mipmap.ic_launcher_round, LoginPractice.class));
+    entries.add(new CatalogEntry("Web 网络编程练习",R.mipmap.ic_launcher_round,WebPractice.class));
   }
 }
